@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .el1 {
+        padding: 5px;
+        background-color: palegreen;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        
+        
+       
+    }
+
+    ul {
+        display: flex;
+        
+       
+      
+
+    }
+
+    ul li {
+        list-style-type: none;
+        padding: 5px;
+        position: sticky;
+    }
+    
+    .el1b>ul{
+        position: sticky;
+        top: 0;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
+    }
+
+    .el2>img {
+        display: grid;
+        width: 100%;
+        height: 90vh;
+    }
+    .el2w{
+        position: relative;
+        bottom: 400px;
+        text-align: center;
+        font-size: 40px;
+        color: black;
+    }
+
+
+    
+
+    i {
+        border: 1px solid black;
+        border-radius: 50%;
+        padding: 2%;
+        border-style: dotted;
+
+
+
+
+    }
+    .el3{
+        display: flex;
+        margin-top: 1px;
+        padding: 5%;
+    }
+    .el31aa{
+        padding-left: 110px; 
+       
+    }
+    .el31bb{
+        padding-left: 110px;
+    }
+    .el31a>button{
+        color: orchid;
+        border: 3px solid black;
+        font-size: medium;
+    }
+    .el4{
+    position: relative;
+   
+    
+}
+
+.el4a>h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color: antiquewhite;
+    font-size: 50px;
+}
+.el4a>p{
+    position: absolute;
+    top:60%;
+    left:50%;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+.el4b>h1{
+    position: absolute;
+    top:50%;
+    left:85%;
+    color: antiquewhite;
+    font-size: 50px;
+}
+.el4b>p{
+    position: absolute;
+    top:60%;
+    left:82%;
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+.el4>img{
+    width: 100%;
+    
+}
+.el4c>h1{
+    position: absolute;
+    top:50%;
+    left:30%;
+    color: antiquewhite;
+    font-size: 50px;
+}
+.el4c>p{
+    position: absolute;
+    top:60%;
+    left:25%;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.el4d>h1{
+    position: absolute;
+    top:50%;
+    left:10%;
+    color: antiquewhite;
+    font-size: 50px;
+}
+.el4d>p{
+    position: absolute;
+    top:60%;
+    left:5%;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.el5 {
+
+        display: flex;
+
+
+    }
+
+
+    .el5a>img {
+        padding: 10%;
+        width: 100%;
+
+
+    }
+
+    .el5b {
+        padding: 20px ;
+        align-content: center;
+
+
+    }
+
+    .el6 {
+
+        display: flex;
+
+    }
+
+    .el6a {
+
+        padding: 80px;
+        align-content: center;
+
+    }
+
+    .el6a>p {
+
+        align-items: center;
+    }
+
+    .el6b>img {
+        display: flex;
+        padding: 15%;
+        width: 100%;
+    }
+
+    .el7 {
+        display: flex;
+        column-gap: 6%;
+        padding: 2%;
+
+    }
+
+    .section {
+        text-align: center;
+    }
+
+    .el8 {
+        display: flex;
+    }
+
+    .el8a {
+        padding: 10%;
+        align-content: center;
+
+    }
+
+    .el8a>b {
+        color:blue;
+    }
+
+    .el8a>button {
+        color: red;
+        border: 1px solid black;
+
+    }
+.el8{
+    padding: 10%;
+    display: flex;
+}
+    .el8b {
+        height: 70%;
+        align-content: center;
+        background-color: lavenderblush;
+        background-image: url(https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/azamat-zhanisov-vI5jmWdv7hY-unsplash2.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 10%;
+        
+
+
+    }
+   
+
+    .el8c {
+        height: 70%;
+       
+        align-content: center;
+        background-color: lavenderblush;
+        background-image: url(https://jevelin.shufflehound.com/startup-creative/wp-content/uploads/sites/36/2019/11/azamat-zhanisov-vI5jmWdv7hY-unsplash1.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 10%;
+        
+        
+    }
+
+    .el8b>b {
+        color: black;
+    }
+    .el9{
+        padding: 10%;
+        display: flex;
+        column-gap: 10%; 
+       
+        
+       
+
+    }
+    .el10{
+        
+        
+        
+       background-color: silver;
+       width: 100%;
+       height: 60vh;
+       display: flex;
+       justify-content: center;
+       column-gap: 100px;
+       align-items: center;
+
+
+
+    }
+    .el11{
+        width:100%;
+        height: 10vh;
+        text-align: center;
+        padding-top: 30px;
+       background-color: antiquewhite;
+    }
+
+    /* Media Query for Laptops */
+@media (min-width: 992px) and (max-width: 1440px) {
+    .el1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el1b ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el2>img {
+        height: 60vh;
+    }
+
+    .el3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el4 img {
+        height: auto;
+    }
+
+    .el5 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el5b {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .el6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el6a {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .el7 img {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .el8 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el8a {
+        text-align: center;
+    }
+
+    .el9 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .el9 .el9a {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .el10 {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .el10 div {
+        margin: 10px;
+    }
+
+    .el11 {
+        font-size: 14px;
+    }
+}
+
+ /* Media Query for Mobile */
+@media (max-width: 520px) {
+    .el1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .el1a h1 {
+        font-size: 20px;
+    }
+
+    .el1b ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    .el2>img {
+        height: 50vh;
+    }
+
+    .el2w h1 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .el3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el31a {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .el31aa, .el31bb {
+        padding: 10px;
+    }
+
+    .el4 {
+        flex-direction: column;
+    }
+
+    .el4 img {
+        height: auto;
+    }
+
+    .el5 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .el5b {
+        padding: 10px;
+    }
+
+    .el6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el6a {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .el7 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el7 img {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .el8 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el8b, .el8c {
+        height: auto;
+        padding: 20px;
+    }
+
+    .el9 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .el9 .el9a {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .el10 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .el10 div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .el11 {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+   
+    
+</style>
+
+<body>
+    <div class="el1">
+        <div class="el1a">
+            <h1>jevelin</h1>
+        </div>
+        <div class="el1b">
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="el2" id="About">
+        <img src="img.png" alt="">
+    </div>
+    <div class="el2w" >
+        <h1>Creative Startup company website to present your amazing ideas</h1>
+    </div>
+    <div class="el3">
+        <div class="el31a" id="Service">
+            <h5>Always at service!</h5><br>
+           <h2> Splendid ideas for starting new business</h2><br>
+           <button>Explore More</button><br>
+        </div>
+<div class="el31aa">
+        <div class="el3a">
+            <div> <i class="fa-solid fa-bolt"></i></div><br>
+            <h2>Fast & effective</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="el3b">
+            <div> <i class="fa-solid fa-laptop"></i></div><br>
+            <h2>Marketing strategy</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+</div>
+<div class="el31bb">
+        <div class="el3c">
+            <div> <i class="fa-solid fa-user"></i></div><br>
+            <h2>Consulting</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="el3d">
+            <div> <i class="fa-solid fa-headphones-simple"></i></div><br>
+            <h2>Startup support</h2><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+</div>
+    </div>
+
+    <div class="el4">
+        <img src="tab1.png">
+    
+        <div class="el4a">
+            <h1>32</h1><br><br>
+            <p>Businesses built in just 2 years</p>
+            <div class="el4b">
+                <h1>100+</h1><br><br>
+                <p>Milestones completed</p>
+            </div>
+           <div class="el4c">
+            <h1>5K</h1>
+            <p> Positive reviews from clients</p>
+           </div>
+           <div class="el4d">
+            <h1>65</h1>
+            <p>Best employees in the world</p>
+           </div>
+           </div>
+   
+    </div>
+
+    <div class="el5">
+        <div class="el5a">
+            <img src="daniel.png" alt="">
+        </div>
+        <div class="el5b">
+            <h3>Highest security in the castle</h3><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris vitae sodales lectus, non ultrices nisi. In varius, leo non gravida tristique, diam nunc aliquam
+            </p><br>
+           
+            <h5>Password protection</h5><br><br>
+            <h5> 2-step authorization key</h5><br><br>
+            <h5>Face recognition</h5><br>
+        </div>
+    </div>
+
+    <div class="el6">
+        <div class="el6a">
+
+            <h3>Worlds most amazing ideas are living here</h3><br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae sodales lectus, non ultrices nisi
+                in</p><br>
+            <b> Higher demand 80%</b><br><br>
+            <b> Less expenses 20%</b>
+
+        </div>
+        <div class="el6b">
+            <img src="daniel1.png">
+        </div>
+    </div>
+
+
+
+    <div class="section" id="Gallery">
+        <h1>Gallary</h1><br>
+        <p>Ut et nisi ac dui pulvinar consequat</p><br><br>
+    </div>
+
+
+    <div class="el7" >
+
+        <img src="image1.png" width="30%" height="80%">
+        <img src="image2.png" width="30%" height="80%">
+        <img src="image3.png" width="30%" height="80%">
+
+    </div>
+    <div class="el8">
+        <div class="el8a">
+            <b>Top Quality!</b><br><br>
+            <h1>Our customers love what we do </h1><br>
+            <p>Curabitur aliquam, felis ut ultricies porta, <br>ante dolor iaculis ante, ante dolor iaculis anteet
+                fringilla ligula</p><br>
+            <button>Contact Us</button>
+        </div>
+        <div class="parent">
+            <div class="el8b"><br>
+                <p>Lectus, non ultrices nisi. In varius, leo non gravida tristique, diam nunc aliquam ligula, id iaculis
+                    quam dui et metus.</p>
+                <b>Kate Welsh</b>
+            </div><br><br><br><br>
+            <div class="el8c">
+                <p>Lectus, non ultrices nisi. In varius, leo non gravida tristique, diam nunc aliquam ligula, id iaculis quam dui et metus.</p>
+                   
+                <b>Jogh Doe</b>
+            </div>
+        </div>
+    </div>
+</body>
+</div>
+    <div class="el9">
+        <div class="el9a">
+            <img src="Sbeauty.png">
+        </div>
+            <div class="el9a">
+            <img src="Group-11 (1).png">
+            </div>
+            <div class="el9a">
+            <img src="Shape.png">
+            </div>
+            <div class="el9a">
+                 <img src="Group.png">
+            </div>
+            <div class="el9a">
+            <img src="Group-11.png">
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="el10">
+        <div class="el10a">
+            <h1>Jevelin</h1><br>
+           <div> Follow our latest achievements and information on social networks</div><br><br>
+           <i class="fa-brands fa-facebook"></i>
+           <i class="fa-brands fa-twitter"></i>
+           <i class="fa-brands fa-instagram"></i>
+        </div>
+           <div class="el10b">
+       <h3>Explore</h3>
+<p>Privacy</p>
+<p>About us</p>
+
+<p>Testimonials</p>
+    </div>
+<div class="el10c">
+<h3>Teamwork</h3>
+<p>Timeline</p>
+<p>News</p>
+<p>Insight</p>
+</div>
+<div class="el10d">
+<h3>Marketing</h3>
+<p>Strategy</p>
+<p>Licensing</p>
+<p>Terms & conditions</p>
+    </div>
+        </div>
+       
+   
+    
+    <div class="el11">
+       Copyright © JevelinTheme - Theme by Shufflehound
+    </div>
+    
+    
+</body>
+
+</html>
